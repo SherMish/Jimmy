@@ -25,7 +25,7 @@ function Register(props) {
         
         axios({
             method: 'post',
-            url: 'http://localhost:3000/api/users/register',
+            url: `http://localhost:3100/api/users/register`,
             data: {
               username: enteredUsername,
               email: enteredEmail,
@@ -74,7 +74,7 @@ function Register(props) {
                         </div>
                                  <p class="text-danger">{errMsg}</p>
                                 <div className="d-flex justify-content-evenly mt-4">
-                                <button onClick={submitHandler} class="btn btn-warning btn-lg"><b>Register</b></button>
+                                    <button onClick={submitHandler} class="btn btn-warning btn-lg"><b>Register</b></button>
                                 </div>
                     </form>
                 </div>

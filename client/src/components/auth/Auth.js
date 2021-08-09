@@ -1,4 +1,5 @@
 import Register from './Register'
+import About from './About'
 import Login from './Login'
 import classes from './Auth.module.css'
 
@@ -10,7 +11,13 @@ function AuthSection(props) {
                     <Register />
                 </div>
                 <div className={classes.authSection}>
+                <About />
+                </div>
+                <div className={classes.authSection}>
                 <Login />
+                </div>
+                <div className={classes.authSection}>
+                    `
                 </div>
             </div>
 
