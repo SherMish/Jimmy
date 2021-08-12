@@ -41,7 +41,7 @@ Filling the registration form with an existing username:
 Registration successful (Username & Email not used):
 Automatic redirection to the dashboard. The authentication was implemented 
 with JSON Web Tokens(JWT). 
-![home-page](https://github.com/SherMish/Moodify/blob/master/client/src/assets/screenshots/greeting%20msg.jpg?raw=true)
+![home-page](https://github.com/SherMish/Jimmy/blob/master/client/src/assets/screenshots/dashboard.jpg?raw=true)
 
 Application currently under development.
 
