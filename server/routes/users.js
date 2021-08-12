@@ -44,7 +44,7 @@ router.post('/register', async (req,res) => {
     }
 })
 
-router.post('/login',  (req, res) => {
+router.post('/login', (req, res) => {
     if (!req.body.username || !req.body.password) {
         res.json({success: false,message: "Please fill all the fields"});
     }

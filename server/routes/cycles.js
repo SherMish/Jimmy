@@ -2,6 +2,7 @@ const express = require('express');
 const Cycle = require('../models/cycle');
 const User = require('../models/user');
 const mongoose = require('mongoose');
+const passport = require('passport');
 const router = express.Router();
 
 
@@ -119,6 +120,11 @@ router.post('/new-cycle', (req,res) => {
         });
         }
     )})
+
+
+    router.get('/isAuth', passport.authenticate('jwt',{session: false}), (req,res) => {
+        res.json({success:true});
+    });
                     
 
 

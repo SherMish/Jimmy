@@ -36,11 +36,6 @@ function Login() {
                 history.push("balance");
             }
           })
-
-
-
-
-
         
     }
 
@@ -57,7 +52,7 @@ function Login() {
                             <input type='text' className="form-control" required id='fullName' placeholder="Enter Your Username Here" ref={usernameInputRef} />
                             <div className="mt-4">
                                     {/* <label for='pass' className="form-label">Password</label> */}
-                                    <input type='email' className="form-control" required id='email' placeholder="Enter Your Password Here" ref={passwordInputRef} />
+                                    <input type='password' className="form-control" required id='email' placeholder="Enter Your Password Here" ref={passwordInputRef} />
                             </div>
                             <p class="text-danger">{errMsg}</p>
                             <div className="d-flex justify-content-evenly mt-4">

@@ -2,6 +2,8 @@ import { Pie } from 'react-chartjs-2';
 
 const data = {
   labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+  height:50,
+      width: 50,
   datasets: [
     {
       label: '# of Votes',
